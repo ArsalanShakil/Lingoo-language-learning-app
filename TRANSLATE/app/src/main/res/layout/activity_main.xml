@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Arsalan Shakil -->
+<!-- 1910097 -->
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".classes.MainActivity">
+
+
+    <!--WORDS LIST CARDVIEW-->
+
+    <com.google.android.material.card.MaterialCardView
+
+        android:id="@+id/word_card"
+        android:layout_width="348dp"
+        android:layout_height="242dp"
+        android:onClick="onClickWords"
+        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardElevation="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/quiz_card"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="243dp"
+            android:orientation="vertical">
+
+
+            <!-- Media -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="194dp"
+                android:contentDescription="@string/learn_words_picture"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/word_card_background" />
+
+            <!-- Buttons -->
+
+            <Button
+                android:id="@+id/word_button"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/roboto_medium"
+                android:includeFontPadding="false"
+                android:onClick="onClickWords"
+                android:text="@string/learn_new_words_daily" />
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <!--Quiz LIST CARDVIEW-->
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/quiz_card"
+        android:layout_width="165dp"
+        android:layout_height="230dp"
+        android:layout_marginEnd="98dp"
+        android:onClick="onClickQuiz"
+        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardElevation="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.78">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Media -->
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="191dp"
+                android:contentDescription="@string/quiz_picture"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/quiz_card_background" />
+
+            <!-- Buttons -->
+
+            <Button
+                android:id="@+id/quiz_button"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/roboto_medium"
+                android:onClick="onClickQuiz"
+                android:text="@string/take_quiz"
+                android:textColor="@color/design_default_color_background" />
+
+
+        </LinearLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <!--Stats LIST CARDVIEW-->
+
+
+    <com.google.android.material.card.MaterialCardView
+
+        android:id="@+id/stats_card"
+        android:layout_width="165dp"
+        android:layout_height="230dp"
+        android:layout_marginStart="95dp"
+        android:onClick="onClickStats"
+        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardElevation="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.91"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.78">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Media -->
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="191dp"
+                android:contentDescription="@string/progress_picture"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/progress_card_background" />
+
+            <!-- Buttons -->
+
+            <Button
+                android:id="@+id/stats_button"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/roboto_medium"
+                android:onClick="onClickStats"
+                android:text="@string/check_progress" />
+
+        </LinearLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="345dp"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintBottom_toTopOf="@+id/quiz_card"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/word_card"
+        app:layout_constraintVertical_bias="0.51" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

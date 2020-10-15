@@ -1,0 +1,27 @@
+<!-- Arsalan Shakil -->
+<!-- 1910097 -->
+
+<resources>
+    <string name="app_name">Translate</string>
+    <string name="learn_words_picture">learn words picture</string>
+    <string name="learn_new_words_daily">Learn new words daily</string>
+    <string name="quiz_picture">quiz picture</string>
+    <string name="take_quiz">Take Quiz</string>
+    <string name="progress_picture">progress picture</string>
+    <string name="check_progress">Progress</string>
+    <string name="splash_screen_image">splash screen image</string>
+    <string name="see_progress">Check Overall Progress</string>
+    <string name="goto_home">Go to Home</string>
+    <string name="result">Result</string>
+    <string name="question_and_answers">Question and Answers</string>
+    <string name="submit">Submit</string>
+    <string name="quiz_completed">Quiz Completed</string>
+    <string name="tick_mark_animation">tick mark animation</string>
+    <string name="word">Word</string>
+    <string name="meaning">Meaning</string>
+    <string name="your_score">Your Score</string>
+    <string name="result_image">result image</string>
+    <string name="score">score</string>
+    <string name="most_recent_quiz_score">Latest score</string>
+    <string name="total_quizzes_taken">Number of quizzes</string>
+</resources>

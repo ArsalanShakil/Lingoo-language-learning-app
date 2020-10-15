@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Arsalan Shakil -->
+<!-- 1910097 -->
+
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_margin="8dp"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/word_stats_textView"
+            android:layout_width="165dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="206dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/word"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/totalScore_stats_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="92dp"
+            android:layout_marginEnd="37dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/score"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/rightAns_stats_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="37dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/score"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="193dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:textSize="12sp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="53dp"
+            android:layout_marginEnd="178dp"
+            android:text="@string/most_recent_quiz_score" />
+
+        <TextView
+            android:layout_width="253dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="95dp"
+            android:layout_marginEnd="118dp"
+            android:textSize="12sp"
+            android:text="@string/total_quizzes_taken" />
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="350dp"
+            android:layout_height="1dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="49dp"
+            android:background="?android:attr/listDivider" />
+
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>

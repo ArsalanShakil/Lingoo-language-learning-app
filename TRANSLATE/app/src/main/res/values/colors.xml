@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Arsalan Shakil -->
+<!-- 1910097 -->
+
+<resources>
+    <color name="colorPrimary">#090858</color>
+    <color name="colorPrimaryDark">#090858</color>
+    <color name="colorAccent">#5C6BC0</color>
+    <color name="titleText">#FFFFFF</color>
+    <color name="questionColor">#363A43</color>
+</resources>
