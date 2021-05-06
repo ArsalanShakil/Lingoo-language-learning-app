@@ -14,3 +14,6 @@ Quiz App that help you learn new languages. Kotlin is used for this app. Externa
 
 ### Results
 ![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/40695548/117317345-1b374f80-ae92-11eb-9950-fa21381b4cc5.gif)
+
+### Progress
+![ezgif com-gif-maker (4)](https://user-images.githubusercontent.com/40695548/117318222-e24baa80-ae92-11eb-8ac7-99a05ac96558.gif)
