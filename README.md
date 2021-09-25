@@ -1,24 +1,26 @@
-# Lingoo-language learning app
-### A quiz app that helps you learn new languages and learn new words. Kotlin is used for this app. External api used to display list of words, Room database used to save progress data of the quiz. Soundpool used for sound cues, material desing io used for ux design and lottiefiles used for animations. 
+# Lingoo | language learning app
+### An app that helps you learn new languages and new words. External api used to display list of words, Room database used to save progress data of the quiz. Soundpool used for sound cues, material design io used for user experince design and Lottie files used for animations. 
+<br/>
 
 
 ## Features
-##### - Learn new words daily.
-##### - Use Quizzes to learn a new language.
-##### - Track your progress.
+##### - Learn new words daily
+##### - Use Quizzes to learn a new language
+##### - Track your progress
 
 <br/>
 
-## Tecnologies Used
+## Tech Used
 ##### - MVVM Architecture
 ##### - Querying external RESTful API
 ##### - Jetpack components(RoomDatabase)
 ##### - Material Design
 ##### - Shared Preferences 
 ##### - Soundpool for sound cues
-##### - Lottiefiles for animations
+##### - Lottie files for animations
 
 
+<br/>
 
 ## App Overview
 
