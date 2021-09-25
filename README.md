@@ -14,7 +14,11 @@ A quiz app that helps you learn new languages and learn new words. Kotlin is use
 ##### - Querying external RESTful API
 ##### - Jetpack components(RoomDatabase)
 ##### - Material Design
-##### - shared Preferences 
+##### - Shared Preferences 
+##### - Soundpool for sound cues
+##### - Lottiefiles for animations
+
+
 
 ## App Overview
 
